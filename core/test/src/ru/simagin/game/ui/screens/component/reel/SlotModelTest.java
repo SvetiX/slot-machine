@@ -10,8 +10,8 @@ public class SlotModelTest {
 
     @Test
     public void correctPosition() throws Exception {
-        assertEquals(0, model.correctPosition(900));
-        assertEquals(1, model.correctPosition(901));
+        assertEquals(1800, model.correctPosition(900));
+        assertEquals(1801, model.correctPosition(901));
         assertEquals(-1, model.correctPosition(-901));
         assertEquals(0, model.correctPosition(-900));
         assertEquals(799, model.correctPosition(799));
