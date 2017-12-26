@@ -43,7 +43,7 @@ public class MainScreen implements Screen, ReelBar.CallBack {
         button.setHeight(128);
         button.setWidth(128);
 
-        reelBar = new ReelBar(5, 1000);
+        reelBar = new ReelBar(5, 3000);
         reelBar.setPosition(260, 89);
         reelBar.registerCallBack(this);
         reelBar.setGameService(new GameServiceStub());
